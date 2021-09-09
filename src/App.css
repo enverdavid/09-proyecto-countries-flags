@@ -1,7 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container {
+    background-color: black;
+}
+
 .container-main-and-aside {
-    background-color: lightgoldenrodyellow;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
     display: flex;
     padding: 70px;
+    border: solid 3px red;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 .principal-container {
