@@ -3,7 +3,7 @@ import "./styles/Header.css"
 
 const Header = () => {
     return (
-        <h1 className="header-class">TheCountriesList "Header"</h1>
+        <h1 className="header-class">Soy un Header</h1>
     )
 }
 

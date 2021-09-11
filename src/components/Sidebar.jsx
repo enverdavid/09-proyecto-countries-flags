@@ -1,10 +1,11 @@
 import React from "react";
 import "./styles/Sidebar.css"
+import { Continents } from "./Continents";
 
 const Sidebar = () => {
     return (
         <aside className="sidebar-container">
-            Soy un sidebar
+            <Continents />
         </aside>
     )
 }

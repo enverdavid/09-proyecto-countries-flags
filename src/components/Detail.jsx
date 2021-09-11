@@ -1,12 +1,22 @@
 import React from "react";
-import "./styles/Detail.css"
+import "./styles/Detail.css";
 
-const Detail = () => {
-    return (
-        <div className="detail-view">
-            <p>Soy una vista deatalle</p>
-        </div>
-    )
-}
+const Detail = ({countryObj}) => {
 
-export {Detail}
+  const {name, capital, flag} = countryObj;
+
+  return (
+    <div className="detail-view">
+        <h3>Soy una vista detalle</h3>
+        <h2>{name}</h2>
+        <h3>{capital}</h3>
+        <img 
+          src={flag}
+          alt=""
+          className="flag-img" 
+        />
+    </div>
+  );
+};
+
+export { Detail };
