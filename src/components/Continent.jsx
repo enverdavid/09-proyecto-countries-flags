@@ -19,6 +19,7 @@ const Continent = () => {
 
     useEffect(() => {
         getContinentData()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [id]);
 
 
