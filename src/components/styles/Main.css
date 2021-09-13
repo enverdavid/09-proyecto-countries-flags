@@ -1,0 +1,7 @@
+.main-container {
+    /* background-color: lightgreen; */
+    /* border-radius: 25px; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,26 +1,39 @@
 import React from "react";
 import "./styles/Sidebar.css"
+import {
+    NavLink
+} from "react-router-dom";
 
 const Sidebar = () => {
     return (
         <aside className="sidebar-container">
-            <h2>Continentes</h2>
+            <h3>Continentes</h3>
             <nav>
                 <ul>
                     <li>
-                        África
+                        <NavLink to="/continent/Africa" activeClassName="selected-continent" exact>
+                            África
+                        </NavLink>
                     </li>
                     <li>
-                        América
+                        <NavLink to="/continent/Americas" activeClassName="selected-continent" exact>
+                            Ameríca
+                        </NavLink>
                     </li>
                     <li>
-                        Asia
+                        <NavLink to="/continent/Asia" activeClassName="selected-continent" exact>
+                            Asia
+                        </NavLink>
                     </li>
                     <li>
-                        Europa
+                        <NavLink to="/continent/Europe" activeClassName="selected-continent" exact>
+                            Europa
+                        </NavLink>
                     </li>
                     <li>
-                        Oceanía
+                        <NavLink to="/continent/Oceania" activeClassName="selected-continent" exact>
+                            Oceanía
+                        </NavLink>
                     </li>
                 </ul>
             </nav>

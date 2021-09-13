@@ -1,5 +1,28 @@
 .search-container {
-    background-color: lightgoldenrodyellow;
-    padding: 10px;
-    border-radius: 25px;
+    /* background-color: lightgoldenrodyellow;
+    border-radius: 25px; */
+    display: flex;
+    justify-content: flex-end;
 }
+.input-search-container {
+    background-color: black;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.input-search-container input {
+    border: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.input-search-container button {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+}
+
