@@ -1,8 +1,10 @@
 .detail-view {
-    background-color: lightgray;
-    border-radius: 25px;
+    /* background-color: lightgray;
+    border-radius: 25px; */
     padding: 10px;
     width: 40vw;
+    display: flex;
+    justify-content: center;
 }
 
 .flag-img {

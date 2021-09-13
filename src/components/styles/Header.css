@@ -1,8 +1,14 @@
 .header-class {
-    background-color: lightsalmon;
-    border-radius: 25px;
-    margin-bottom: 70px;
-    /* margin-left: 70px;
-    margin-right: 70px; */
-    padding: 70px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-class h5 {
+    margin: 0;
 }
